@@ -1,10 +1,10 @@
 # Banking Microservices
 
-[![Java](https://img.shields.io/badge/Java-17-blue)]  
-[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.5.5-brightgreen)]  
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15-blue)]  
-[![Docker Compose](https://img.shields.io/badge/Docker-Compose-blue)]  
-[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+![Java](https://img.shields.io/badge/Java-17-blue)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.5.5-brightgreen)  
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15-blue)
+![Docker Compose](https://img.shields.io/badge/Docker-Compose-blue)  
+![License](https://img.shields.io/badge/License-MIT-green)
 
 ---
 
@@ -95,21 +95,14 @@ Esto iniciará:
 
 ---
 
-## Endpoints principales
+---
 
-### Identity Service (`http://localhost:8080/api/v1/customers`)
-- `GET /customers` → Listar clientes  
-- `POST /customers` → Crear cliente  
-- `PUT /customers/{id}` → Actualizar cliente  
-- `DELETE /customers/{id}` → Eliminar cliente  
+## Instrucciones de uso
 
-### Account Service (`http://localhost:9090/api/v1`)
-- `GET /accounts` → Listar cuentas  
-- `POST /accounts` → Crear cuenta  
-- `PUT /accounts/{id}` → Actualizar cuenta  
-- `DELETE /accounts/{id}` → Eliminar cuenta  
-- `GET /accounts/{id}/transactions` → Consultar transacciones de una cuenta  
-- `POST /transactions` → Registrar transacción  
+Cada microservicio cuenta con un archivo **README propio** en su repositorio donde se detallan sus endpoints y particularidades de uso:
+
+- Identity Service → `TechnicalTest-SofkaTechnologies-IdentityService`
+- Account Service → `TechnicalTest-SofkaTechnologies-AccountService`
 
 ---
 
@@ -127,3 +120,10 @@ En la carpeta `Postman - Collections/` encontrarás las siguientes colecciones l
 
 Andrés Suárez - Desarrollador Backend  
 Email: elcostexd995@gmail.com  
+
+## Agradecimiento
+
+Gracias por su atención y por la oportunidad.  
+Si necesitan algún contexto adicional, estoy disponible para aclarar cualquier detalle.  
+
+---
