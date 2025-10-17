@@ -1,0 +1,6 @@
+[submodule "Sofka-IdentityService"]
+	path = Sofka-IdentityService
+	url = https://github.com/BeLawliet/Sofka-IdentityService.git
+[submodule "Sofka-AccountService"]
+	path = Sofka-AccountService
+	url = https://github.com/BeLawliet/Sofka-AccountService.git
